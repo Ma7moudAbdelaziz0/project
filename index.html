@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+  <div class="container-fluid text-bg-dark px-5 py-3">
+    <h1>Mahmoud Ahmed</h1>
+    <p>
+      <small>
+        Full-stack .NET developer crafting fast, accessible web apps. I love clean architecture, solid UX, and
+        turning complex ideas into simple products.
+      </small>
+    </p>
+  </div>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+           <li class="nav-item">
+            <a class="nav-link fw-bold active " href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#photos">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pricing_card">Pricing_Card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#featured_projects">Featured_Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rating_card">Rating_Card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about_me">About_Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#email_me">Email_Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="photos">
+    <div id="demo" class="carousel slide mx-5 " data-bs-ride="carousel">
+
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item active ">
+          <img src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg" alt="image" class="d-block w-100"
+            style="height:auto;max-height: 400px; object-fit: cover">
+        </div>
+        <div class="carousel-item ">
+          <img src="https://images.pexels.com/photos/3182773/pexels-photo-3182773.jpeg" alt="image"
+            class="d-block w-100" style="height:auto;max-height: 400px; object-fit: cover">
+        </div>
+        <div class="carousel-item ">
+          <img src="https://images.pexels.com/photos/3861963/pexels-photo-3861963.jpeg" alt="image"
+            class="d-block w-100" style="height:auto;max-height: 400px; object-fit: cover">
+        </div>
+      </div>
+
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div class="container" id="pricing_card">
+    <div class="row align-items-stretch g-5">
+      <div class="col-lg-6 d-flex">
+        <div class="card rounded-4  mt-5 mb-5 h-100 w-100 bg-light">
+          <div class="card-header mt-3 bg-light">
+            <h4 class="fs-4 fw-bold">
+              <span class="badge text-bg-dark">Free</span>
+            </h4>
+            <p class="text-muted">For Freelancers</p>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h2 class="fs-1 fw-bold mt-1">
+              $0.00<span class="fs-5" style="transform: translateY(0.75em); position: absolute">/month</span>
+            </h2>
+            <ul class="list-group list-group-flush mt-3 fw-bold">
+              <li class="list-group-item border-0 bg-light">
+                <i class="bi bi-check-circle-fill pe-2 fs-5"></i>
+                Single User
+              </li>
+              <li class="list-group-item border-0 bg-light">
+                <i class="bi bi-check-circle-fill pe-2 fs-5"></i>
+                +10 Downloads Per Month
+              </li>
+              <li class="list-group-item border-0 bg-light">
+                <i class="bi bi-check-circle-fill pe-2 fs-5"></i>
+                Faster Files
+              </li>
+              <li class="list-group-item border-0 bg-light">
+                <i class="bi bi-check-circle-fill pe-2 fs-5"></i>
+                +25 Custom Packs
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer border-0">
+            <div class="d-grid">
+              <button class="btn btn-dark rounded-4 mb-3">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-flex">
+        <div class="card rounded-4  mt-5 mb-5 text-bg-dark h-100 w-100">
+          <div class="card-header border-bottom border-white mt-3">
+            <h4 class="fs-4 fw-bold">
+              <span class="badge text-bg-success">Pro</span>
+            </h4>
+            <p class="text-light">For Agencies</p>
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h2 class="fs-1 fw-bold mt-1">
+              $100.00<span class="fs-5" style="transform: translateY(0.75em); position: absolute">/month</span>
+            </h2>
+            <ul class="list-group list-group-flush mt-3 fw-bold">
+              <li class="list-group-item text-bg-dark border-0">
+                <i class="bi bi-check-circle-fill text-bg-dark pe-2 fs-5 text-success"></i>
+                Unlimited Users
+              </li>
+              <li class="list-group-item text-bg-dark border-0">
+                <i class="bi bi-check-circle-fill text-bg-dark pe-2 fs-5 text-success"></i>
+                Unlimited Downloads
+              </li>
+              <li class="list-group-item text-bg-dark border-0">
+                <i class="bi bi-check-circle-fill text-bg-dark pe-2 fs-5 text-success"></i>
+                Fully-Editable Files
+              </li>
+              <li class="list-group-item text-bg-dark border-0">
+                <i class="bi bi-check-circle-fill text-bg-dark pe-2 fs-5 text-success"></i>
+                +200 Custom Packs
+              </li>
+              <li class="list-group-item text-bg-dark border-0">
+                <i class="bi bi-check-circle-fill text-bg-dark pe-2 fs-5 text-success"></i>
+                +200 Custom Packs
+              </li>
+            </ul>
+          </div>
+          <div class="card-footer border-0">
+            <div class="d-grid">
+              <button class="btn btn-success rounded-4 mb-3">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5" id="featured_projects">
+    <h4>Featured Projects</h4>
+    <p><small>A few recent builds. Click through for details.</small></p>
+    <div class="row g-4">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://picsum.photos/seed/p1/600/400" alt="Project Image">
+          <div class="card-body">
+            <h5 class="card-title">Lifting Inspection Portal</h5>
+            <p class="card-text"><small>Multi-tenant dashboard with reports, role-based access, and
+                offline-first inspections.</small></p>
+            <a href="#" class="btn btn-outline-primary w-100">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://picsum.photos/seed/p2/600/400" alt="Project Image">
+          <div class="card-body">
+            <h5 class="card-title">Courses Academy</h5>
+            <p><small>.NET 9+ Onion Architecture app with Identity, payments, and instructor
+                tooling.</small></p>
+            <a href="#" class="btn btn-outline-primary w-100">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://picsum.photos/seed/p3/600/400" alt="Project Image">
+          <div class="card-body">
+            <h5 class="card-title">Legal Matters Connector</h5>
+            <p><small>Sync engine linking M365, Net Documents, and CRM with audit logs and retries.</small>
+            </p>
+            <a href="#" class="btn btn-outline-primary w-100">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://picsum.photos/seed/p4/600/400" alt="Project Image">
+          <div class="card-body">
+            <h5 class="card-title">Contacts Intelligence</h5>
+            <p><small>Search pagination over millions of records with server-side filtering.</small></p>
+            <a href="#" class="btn btn-outline-primary w-100">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container min-vh-100 d-flex align-items-center justify-content-center " id="rating_card">
+    <div class="card rounded-4  col-12 col-md-8 col-lg-6 bg-light">
+      <div class="card-body m-3">
+        <div class="row">
+          <div class="col-7 fs-4 fw-bold">
+            What others think about your product
+          </div>
+          <div class="col-5">
+            <div class="card">
+              <div class="card-body">
+                <h3 class="display-5 fw-bold ms-4">
+                  <i class="fas fa-star text-warning"></i>
+                  3.3
+                </h3>
+                <p class="text-center fw-medium">Average Rating</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="vstack">
+            <form action="">
+              <div class="input-group">
+                <span class="input-group-text rounded-start-4"><i class="bi bi-search"></i></span>
+                <input type="text" class="form-control rounded-end-4" placeholder="Search Reviews" />
+              </div>
+              <h5 class="mt-5 fw-bold">Reviews</h5>
+              <div class="d-flex">
+                <div class="col-1">
+                  <h5>1 <i class="fas fa-star text-warning fs-6"></i></h5>
+                </div>
+                <div class="col-11">
+                  <div class="progress" style="transform: translateY(0.5em)">
+                    <div class="progress-bar bg-warning" style="width: 50%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-1">
+                  <h5>2 <i class="fas fa-star text-warning fs-6"></i></h5>
+                </div>
+                <div class="col-11">
+                  <div class="progress" style="transform: translateY(0.5em)">
+                    <div class="progress-bar bg-warning" style="width: 30%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-1">
+                  <h5>3 <i class="fas fa-star text-warning fs-6"></i></h5>
+                </div>
+                <div class="col-11">
+                  <div class="progress" style="transform: translateY(0.5em)">
+                    <div class="progress-bar bg-warning" style="width: 80%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-1">
+                  <h5>4 <i class="fas fa-star text-warning fs-6"></i></h5>
+                </div>
+                <div class="col-11">
+                  <div class="progress" style="transform: translateY(0.5em)">
+                    <div class="progress-bar bg-warning" style="width: 100%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="col-1">
+                  <h5>5 <i class="fas fa-star text-warning fs-6"></i></h5>
+                </div>
+                <div class="col-11">
+                  <div class="progress" style="transform: translateY(0.5em)">
+                    <div class="progress-bar bg-warning" style="width: 55%"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-grid mt-5">
+                <button class="btn btn-success rounded-2">
+                  Write Review
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5">
+    <div class="row g-4">
+      <div class="col-12 col-md-8" id="about_me">
+        <div class="card p-3 h-100">
+          <h4>About Me</h4>
+          <p><small>15+ years building enterprise apps with .NET, SQL Server, and modern front-end stacks. I
+              mentor
+              teams, design architectures, and ship maintainable software.</small></p>
+        </div>
+      </div>
+      <div class="col-12 col-md-4" id="email_me">
+        <div class="card p-3 h-100">
+          <h4>Get in Touch</h4>
+          <p><small>Available for consulting, training, and architecture reviews.</small></p>
+          <a href="#" class="btn btn-success w-100">Email Me</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid border-top mt-5">
+    <footer class="d-flex flex-column flex-md-row justify-content-between align-items-center py-3">
+      <p class="mb-0">© 2025 Ma7moud_0</p>
+      <p class="mb-0">Built with Bootstrap 5</p>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
